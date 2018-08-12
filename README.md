@@ -1,12 +1,3 @@
-# PULP TEST TOOL
-* 调用线上剑皇服务,支持七牛/图普/阿里/百度
-* 获取剑皇调用日志
-* 计算剑皇指标
-
-## requirements
-* futures
-* requests
-* numpy
 
 ## Usage
 ```shell
