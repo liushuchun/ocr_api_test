@@ -373,7 +373,7 @@ def get_scene_model_result(ak,sk,gt,logfile):
     with open(gt)as fr,open("detect_scene_model.json","w")as fw1:
         for line in fr.readlines():
             mydict = json.loads(line)
-            url = url = mydict["url"]
+            url = mydict["url"]
             temp = dict()
             temp["url"] = url
             temp["texts"] = []
