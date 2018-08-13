@@ -7,7 +7,7 @@ from concurrent.futures import as_completed
 
 
 def parse():
-    args = argparse.ArgumentParser('ocr class detections infer')
+    args = argparse.ArgumentParser('ocr class infer')
     args.add_argument('--gt', type=str, required=True, help='标注过的json文件')
     args.add_argument('--log', type=str, required=True, help='日志文件，每行一个结果（name\tclass）')
     args.add_argument('--ak', type=str, required=True, help='ak')
